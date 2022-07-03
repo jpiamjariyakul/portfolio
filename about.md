@@ -10,7 +10,7 @@ permalink: /about/
 
 <!-- # Bio -->
 
-<img src="{{ site.baseurl }}/assets/img/banner_about.jpg" style="padding: 5px; border: 1px solid #51555d;"/>
+<img src="{{ site.baseurl }}/assets/img/banner_about.jpg" style="float: left; padding: 5px; margin: 0px 20px; border: 1px solid #51555d; width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"/>
 
 Jay Piamjariyakul is an engineer and amateur musician based in Cambridge, UK.
 
@@ -38,6 +38,10 @@ Jay is open to composing opportunities (be it film, choral, or concert - even wr
 <!-- *** -->
 
 And yes, Jay still plays with LEGO. He regrets nothing.
+
+# Contacts
+
+The best way to reach me is via [email](mailto:j.piamjariyakul@outlook.com), but I am also reachable on [LinkedIn](https://www.linkedin.com/in/jpiamjariyakul).
 
 <!-- 
 ***

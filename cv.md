@@ -3,6 +3,7 @@ layout: single
 title: CV
 permalink: /cv/
 toc: true
+toc_sticky: true
 ---
 
 # Education
