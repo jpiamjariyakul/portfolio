@@ -11,4 +11,10 @@ tags:
 
 The short film can be watched below (released on April 10, 2020):
 
-<iframe width="994" height="559" src="https://www.youtube.com/embed/WihOmRkLlEc" title="YouTube video player" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="994" height="559" src="https://www.youtube.com/embed/WihOmRkLlEc" title="YouTube video player" frameborder="0" allow="encrypted-media"></iframe>
+
+***
+
+EDIT: Released the score on Spotify & streaming services on June 25, 2022 - check it out!
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/05qmK0B1kWnnPzT3GpbGml?utm_source=generator" width="100%" height="380" frameBorder="0"></iframe>

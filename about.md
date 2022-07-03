@@ -10,7 +10,7 @@ permalink: /about/
 
 <!-- # Bio -->
 
-<img src="{{ site.baseurl }}/assets/img/banner_about.jpg" style="float: left; padding: 5px; margin: 0px 20px; border: 1px solid #51555d; width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"/>
+<img src="{{ site.baseurl }}/assets/img/banner_about.jpg" style="float: left; padding: 5px; margin: 0 20px 0 20px; border: 1px solid #51555d; width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"/>
 
 Jay Piamjariyakul is an engineer and amateur musician based in Cambridge, UK.
 
@@ -25,11 +25,11 @@ Jay eventually found his specialty in DSP, hardware & software programming, and 
 
 # Music
 
-Outside of engineering, Jay is also an amateur singer and hobbyist composer with interest in choral and film music. He received private tuition on piano and violin at an early age (which he disliked), and received singing lessons with Miss Boyd (regrettably Jay couldn't recall her forename), eventually achieving Grade 5 Music Theatre and Grade 6 Singing from ABRSM. Aside from singing, Jay also began composing music since 2014 (self-taught and influenced by his film composer heroes) and hasn't stopped since, taking influences from film/cinematic, traditional choral, jazz/rock/blues, and electronic music into his composition style.
+Outside of engineering, Jay is also an amateur singer and hobbyist composer with interest in choral and film music. He received private tuition on piano and violin at an early age (which he disliked), and received singing lessons with Ms Heather Boyd, eventually achieving Grade 5 Music Theatre and Grade 6 Singing from ABRSM. Aside from singing, Jay also began composing music since 2014 (self-taught and influenced by his film composer heroes) and hasn't stopped since, taking influences from film/cinematic, traditional choral, jazz/rock/blues, and electronic music into his composition style.
 
 In his time at University of Bristol, Jay began writing numerous pieces for orchestras, ensembles, and choirs. He was the conductor of the Music Society's Wind Orchestra from 2020-21 and over Spring of 2020 delivered a series of mini-lectures on film music composition. He also composed the music to the Wildlife Film Society's short film "The Murmuration" by Alice Geary. Jay began his dive into choral composition in late 2020, and premiered his first choral concert work in March 2021.
 
-Jay is currently singing with University of Cambridge's Magdalene College Chapel Choir directed by Graham Walker (as of 2022), and is currently composing one of his longest choral works yet. He is currently the Marketing Officer with Elysium Orchestra, set up by Enyi Okpara.
+Jay is currently singing with University of Cambridge's Magdalene College Chapel Choir directed by Graham Walker (as of 2022), and is currently composing one of his longest choral works yet. He is currently the Marketing Officer with Elysium Music, set up by Enyi Okpara, and has since been appointed the Composer-in-Residence in July 2022.
 
 He also composed a number of poems over his school days, and after a hiatus began writing poetry again in 2020.
 

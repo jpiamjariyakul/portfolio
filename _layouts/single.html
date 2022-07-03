@@ -20,10 +20,10 @@ toc_sticky: true
   {% include sidebar.html %}
   {% if page.toc == true %}
   <!-- Page has TOC: apply padding -->
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork" style="padding-right: 300px;">
+  <article class="page h-entry wtoc" itemscope itemtype="https://schema.org/CreativeWork">
   {% else %}
   <!-- Page has no TOC: no pad required -->
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork" style="padding-right: 0px;">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
   {% endif %}
 
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}

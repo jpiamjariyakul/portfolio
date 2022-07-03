@@ -6,6 +6,13 @@ toc: true
 toc_sticky: true
 ---
 
+<style>
+  ul li {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
+
 # Education
 
 ## University of Bristol

@@ -1,0 +1,27 @@
+p ul li {
+    list-style-type: square;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+article.page.h-entry {
+    padding-right: 50px;
+
+    @media screen and (max-width: 800px), print {
+        padding-right: 0px;
+    }
+}
+
+article.page.h-entry.wtoc {
+    padding-right: 200px;
+    
+    @media screen and (max-width: 800px), print {
+        padding-right: 0px;
+    }
+}
+
+body {
+    padding-left:   50px;
+    padding-right:  50px;
+}
+
