@@ -5,7 +5,7 @@ p ul li {
 }
 
 article.page.h-entry {
-    padding-right: 50px;
+    padding-right: 0px;
 
     @media screen and (max-width: 800px), print {
         padding-right: 0px;
@@ -13,8 +13,14 @@ article.page.h-entry {
 }
 
 article.page.h-entry.wtoc {
-    padding-right: 200px;
-    
+    @include breakpoint($large) {
+        padding-right: $right-sidebar-width-narrow;
+    }
+    @include breakpoint($x-large) {
+        padding-right: $right-sidebar-width;
+    }
+    // padding-right: $right-sidebar-width;
+
     @media screen and (max-width: 800px), print {
         padding-right: 0px;
     }
