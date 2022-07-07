@@ -29,5 +29,9 @@ article.page.h-entry.wtoc {
 body {
     padding-left:   50px;
     padding-right:  50px;
+    @media screen and (max-width: 800px), print {
+        padding-left:   0px;
+        padding-right:  0px;
+    }
 }
 
