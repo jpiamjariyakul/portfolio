@@ -33,12 +33,12 @@ github_username:  jekyll
 #theme: minima
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-repository: jpiamjariyakul/portfolio
+repository: jpiamjariyakul/website
 
 # GH pages - serve from directory?
 domain: jpiamjariyakul.github.io
 url: https://jpiamjariyakul.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /portfolio/      # place folder name if the site is served in a subfolder
+baseurl: /website/      # place folder name if the site is served in a subfolder
 
 plugins:
   #- jekyll-feed

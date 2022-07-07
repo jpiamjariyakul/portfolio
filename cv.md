@@ -11,7 +11,27 @@ toc_sticky: true
     text-align: justify;
     text-justify: inter-word;
   }
+
+  .showOnPrint {
+    display: none;
+  }
+
+  @media print {
+    .page__title.p-name {
+      display: none;
+    }
+    .page__content.e-content {
+      font-size: 0.875rem;
+    }
+    .showOnPrint {
+    display: block;
+  }
+  }
 </style>
+
+<h1 class="showOnPrint">
+Jay Piamjariyakul
+</h1>
 
 # Education
 
@@ -20,7 +40,7 @@ toc_sticky: true
 *September 2017 - June 2021*<br>
 1st Class Honours (74%)
 
-Thesis: "A novel make-up gain stage for the software-based Moog 4-pole audio filter" (Achieved 72%)
+Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio filter"]({{ site.baseurl }}/assets/pdf/thesis.pdf) (Achieved 72%)
 
 - Projects: loudness-restoring audio plugin based on ITU-R BS.1770, Rubik’s Cube solving robot, FPGA peak byte generator/detector, DSP-based Goertzel algorithm implementation, embedded SoC/bridge design, LDPC coding system simulation, real-time autonomous robot programming
 - Units: Digital/Analogue Electronics & Filters, Embedded Real-Time & VLSI System Designs, Networking Protocols & Applications, Mobile Communications, Sustainable Power Engineering, Audio & Image Processing
@@ -71,20 +91,24 @@ Thesis: "A novel make-up gain stage for the software-based Moog 4-pole audio fil
 - Adept in object-oriented programming concepts, general data structures & algorithms, version control with Git, CRUD systems, and web/software development in HTML/CSS, Python/JavaScript, and MATLAB
 - Capable with advanced electronics concepts, circuitries & operations, including System-on-Chip & bridge design, digital & analogue circuit design, and able in communication system concepts (including mobile) and network principles
 - Previous experiences with microcontrollers and its languages in personal, internship & university-related projects, i.e. Arduino, Raspberry Pi, TI LaunchPad
+
 ## Problem Solving & Creativity
 - Developed a set of prototype methods for collecting coverage data from functional verification & image quality metrics given top-level specifications with Python & SV as part of my Arm internship scheme, and designed database methods for storing & querying the collected information.
 - Designing & fabricating a Rubik’s Cube puzzle-solving robot from minimal requirements, with concerns to resource efficiency, performance, design choices, longetivity, and output verification.
 - Designed a PNM to PGM conversion (and vice versa) in C & an FPGA byte generator/detector in VHDL from minimal specifications, and programmed a disease/population analysis program in Python.
 - Designed & successfully operated an ultrasonic transducer circuit with minimal specifications.
+
 ## Proactivity & Preparedness
 - Studied & practiced OpenCV and additional Python-based modules prior to beginning the Rubik’s Cube Solving Robot project in Week 2 of studies.
 - Took executive decisions regarding CitiBlox’s prototyping & equipment-handling situations, in addition to interpersonal issues amongst the Electronics Team.
 - Undertook 3D-printing, CAD modelling, and laser-cutting inductions prior to CitiBlox’s electronics division leader role.
 - Applied Git version control to our FPGA Digital Design & Embedded SoC Design Group Projects, and updated the repository daily. Backups are readily available & restored during occasional incidents, resulting in minimal work lost.
+
 ## Communication & Collaboration
 - Presented my Arm internship’s project proposal to members within Functional Verification team. Organised project scope, approaches, and results into concise presentation topics.
 - Developed communication skills & techniques essential to explaining difficult engineering concepts for children & students in the OutReach programme, including learning & understanding each individual’s needs.
 - Formulated a detailed analysis & reflective report for both of my programming projects, and presented my results & reflections in a 1-to-1 interview.
+
 ## Teamwork & Leadership
 - Leader of the Electronics Division of CitiBlox. Organised multiple team meetings with fellow team members, liaised with our sub-teams and other divisions, and arranged necessary equipment & purchases necessary for prototyping.
 - Spearheaded & organised a team of 5 members to program & synthesise an Artix-7 FPGA board in order to formulate a data generator & peak detector (given the byte-stream from the former); achieved 80% overall.
