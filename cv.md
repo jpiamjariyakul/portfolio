@@ -24,21 +24,48 @@ toc_sticky: true
       font-size: 0.875rem;
     }
     .showOnPrint {
-    display: block;
+      display: block;
+    }
+    .inline-header, p.extra-margin {
+      margin: 0 0 0.5em !important; 
+    }
+     /* {
+      margin: 0 0 0.5em !important; 
+    } */
   }
+
+  .flush-L {
+    float:left;
+  }
+  .flush-R {
+    float:right;
+  }
+
+  p.extra-margin {
+    margin: 1rem 0 0.5em;
+  }
+  
+  .inline-header {
+    display:inline-block;
+    
+    /* Remove the next line if you want the span to appear next to the h1 */
+    justify-content: space-between;
   }
 </style>
 
-<h1 class="showOnPrint">
-Jay Piamjariyakul
-</h1>
+<!-- <h1 class="showOnPrint">
+<u>Jay Piamjariyakul</u>
+</h1> -->
+# Jay Piamjariyakul
+{: .showOnPrint }
 
 # Education
 
 ## University of Bristol
 **Master of Engineering in Electrical & Electronic Engineering**<br>
-*September 2017 - June 2021*<br>
-1st Class Honours (74%)
+*September 2017 - June 2021*{: .flush-L}
+<span>1st Class Honours (74%)</span>{: .flush-R}
+<br>
 
 Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio filter"]({{ site.baseurl }}/assets/pdf/thesis.pdf) (Achieved 72%)
 
@@ -47,8 +74,8 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
 - Achieved 70% in First Year, 70% in Second Year, 74% in Third Year, 75% in Fourth Year
 
 ## Strathallan School
-**Perth, Scotland**<br>
-*September 2012 - June 2017*
+<span style="float:left">**Perth, Scotland**</span>
+<span style="float:right">*September 2012 - June 2017*</span><br>
 
 - A-Levels: Mathematics, Physics, Computer Science (ABB respectively)
 - 9 GCSEs including: A* in Mathematics and Computing, A in Triple Sciences, and B in English
@@ -58,15 +85,23 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
 # Work Experience
 
 ## Arm Ltd
+{: .inline-header}
 **Cambridge, United Kingdom**
+{: .inline-header .flush-R .extra-margin}
 
 ### Graduate Verification Engineer
+<!-- {: .inline-header} -->
 *August 2021 - Present*
+<!-- {: style="clear: right;" .inline-header .flush-R .extra-margin} -->
+
 - Collaborated between graduates & engineers on significant projects within rotational teams, including implementation of a novel method to verify results of various protocol checkers, data transfers, and mass regressions - utilised in the latest releases of functional safety-compliant interrupt controllers.
 - Implemented a framework using machine learning models to reduce number of seeds required to achieve the same regression coverage, and automated the pipeline for various testplans.
 
-### Image Signal Processing (ISP) Hardware Verification Intern
+### ISP Verification Intern
+<!-- {: .inline-header} -->
 *June 2020 - September 2020*
+<!-- {: .inline-header .flush-R .extra-margin} -->
+
 - Collaborated with an external division within Arm to obtain metric processing scripts on Python, and developed a database system to store parsed information, with scalability & user experience considered.
 
 ## University of Bristol
@@ -99,7 +134,7 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
 - Designed & successfully operated an ultrasonic transducer circuit with minimal specifications.
 
 ## Proactivity & Preparedness
-- Studied & practiced OpenCV and additional Python-based modules prior to beginning the Rubik’s Cube Solving Robot project in Week 2 of studies.
+- Studied & practised OpenCV and additional Python-based modules prior to beginning the Rubik’s Cube Solving Robot project in Week 2 of studies.
 - Took executive decisions regarding CitiBlox’s prototyping & equipment-handling situations, in addition to interpersonal issues amongst the Electronics Team.
 - Undertook 3D-printing, CAD modelling, and laser-cutting inductions prior to CitiBlox’s electronics division leader role.
 - Applied Git version control to our FPGA Digital Design & Embedded SoC Design Group Projects, and updated the repository daily. Backups are readily available & restored during occasional incidents, resulting in minimal work lost.
@@ -118,14 +153,14 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
 
 # Extra-Curricular & Achievement
 ## Mathematics & Computer Science Tutor
-**Coronavirus Tutoring Initiative (Remote)**<br>
-*June 2020 - July 2020*
+<span style="float:left">**Coronavirus Tutoring Initiative (Remote)**</span>
+<span style="float:right">*June 2020 - July 2020*</span><br>
 
 - Developed strategic methods in communication techniques & interests that would allow each individual tutee to approach problems in their own way, bringing their problem-solving skills & finesse to the forefront.
 
 ## Bristol PLUS Awards
-**Bristol, United Kingdom**
-*November 2019*
+<span style="float:left">**Bristol, United Kingdom**</span>
+<span style="float:right">*November 2019*</span><br>
 - Awarded to students demonstrating interpersonal competencies & adaptability via experiences & commitment.
 - Allowed personal reflection on improving my time allocation & task prioritisation skills, in addition to being more conscious of the global citizenship & interconnectedness of individuals.
 
@@ -140,4 +175,6 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
     }
   }
 </style>
-<p class="noprint">This page is printable. (This message will be hidden)</p>
+<p class="noprint">
+This page is printable (this message will be hidden). Any further stylings still requires a lot more work!
+</p>
