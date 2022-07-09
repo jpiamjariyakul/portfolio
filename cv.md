@@ -17,12 +17,22 @@ toc_sticky: true
   }
 
   @media print {
-    .page__title.p-name {
+    .page__content.e-content {
+      /* width: 80%; 
+      height: auto; 
+      margin: 50px auto; */
+      transform: scale(1);
+      transform-origin: 0 0;
+      /* font-size: 80%; */
+      font-size: 0.75rem;
+    }
+
+    .page__title.p-name, hr {
       display: none;
     }
-    .page__content.e-content {
+    /* .page__content.e-content {
       font-size: 0.875rem;
-    }
+    } */
     .showOnPrint {
       display: block;
     }
@@ -51,6 +61,14 @@ toc_sticky: true
     /* Remove the next line if you want the span to appear next to the h1 */
     justify-content: space-between;
   }
+
+  /* div br {
+    height: 0;
+  } */
+
+  /* .temp-fix {
+    margin: 0;
+  } */
 </style>
 
 <!-- <h1 class="showOnPrint">
@@ -88,34 +106,50 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
 {: .inline-header}
 **Cambridge, United Kingdom**
 {: .inline-header .flush-R .extra-margin}
+<div style="height: 0;"><br></div>
 
 ### Graduate Verification Engineer
-<!-- {: .inline-header} -->
+{: .inline-header}
 *August 2021 - Present*
+{: .inline-header .flush-R .extra-margin}
 <!-- {: style="clear: right;" .inline-header .flush-R .extra-margin} -->
+<div style="height: 0;"><br></div>
 
 - Collaborated between graduates & engineers on significant projects within rotational teams, including implementation of a novel method to verify results of various protocol checkers, data transfers, and mass regressions - utilised in the latest releases of functional safety-compliant interrupt controllers.
 - Implemented a framework using machine learning models to reduce number of seeds required to achieve the same regression coverage, and automated the pipeline for various testplans.
 
 ### ISP Verification Intern
-<!-- {: .inline-header} -->
+{: .inline-header}
 *June 2020 - September 2020*
-<!-- {: .inline-header .flush-R .extra-margin} -->
+{: .inline-header .flush-R .extra-margin}
+<div style="height: 0;"><br></div>
 
 - Collaborated with an external division within Arm to obtain metric processing scripts on Python, and developed a database system to store parsed information, with scalability & user experience considered.
 
 ## University of Bristol
+{: .inline-header}
 **Bristol, United Kingdom**
+{: .inline-header .flush-R .extra-margin}
+<div style="height: 0;"><br></div>
 
 ### SCEEM OutReach Ambassador
+{: .inline-header}
 *November 2019 - Present*
+{: .inline-header .flush-R .extra-margin}
+<div style="height: 0;"><br></div>
 - Taught children & young adults of useful engineering concepts & disciplines, and hosted multiple workshops on STEM-related skills & subjects at school visits & science centres (including programming, electronics, and circuitry).
 
 ## CitiBlox Ltd
+{: .inline-header}
 **Bristol, United Kingdom**
+{: .inline-header .flush-R .extra-margin}
+<div style="height: 0;"><br></div>
 
 ### Leader of Electronics Division
+{: .inline-header}
 *October 2018 - October 2019*
+{: .inline-header .flush-R .extra-margin}
+<div style="height: 0;"><br></div>
 - Organised sub-teams for different projects & assigned their team leaders & tasks, in liaison with the leaders of other divisions, organised meetings, and undertook executive decisions regarding prototyping and development cycles.
 
 ***
