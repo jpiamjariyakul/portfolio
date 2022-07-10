@@ -18,13 +18,9 @@ toc_sticky: true
 
   @media print {
     .page__content.e-content {
-      /* width: 80%; 
-      height: auto; 
-      margin: 50px auto; */
       transform: scale(1);
       transform-origin: 0 0;
-      /* font-size: 80%; */
-      font-size: 0.75rem;
+      font-size: 85% !important; 
     }
 
     .page__title.p-name, hr {
@@ -209,6 +205,7 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
     }
   }
 </style>
-<p class="noprint">
-This page is printable (this message will be hidden). Any further stylings still requires a lot more work!
-</p>
+<!-- <p class="noprint"> -->
+This page is [printable](javascript:if(window.print)window.print()) (this message will be hidden). Styling still requires a lot more work!
+{: .noprint}
+<!-- </p> -->
