@@ -23,6 +23,19 @@ toc_sticky: true
       font-size: 85% !important; 
     }
 
+    .sidebar__right {
+      margin: 0;
+    }
+
+    .page .page__inner-wrap {
+      /* float: left; */
+      margin-top: 0;
+      /* margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      clear: both; */
+    }
+
     .page__title.p-name, hr {
       display: none;
     }
