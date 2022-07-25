@@ -20,23 +20,26 @@ toc_sticky: true
     .page__content.e-content {
       transform: scale(1);
       transform-origin: 0 0;
-      font-size: 85% !important; 
+      font-size: 80% !important; 
     }
 
-    .sidebar__right {
-      margin: 0;
+    p ul {
+      margin: 0em 0 0.5em
+    }
+    .page__content p {
+      margin: 0 0 0.5em;
     }
 
-    .page .page__inner-wrap {
-      /* float: left; */
-      margin-top: 0;
-      /* margin-left: 0;
-      margin-right: 0;
-      width: 100%;
-      clear: both; */
+    ul {
+      /* margin-block-start: 0.5em; */
+      margin-block-start: 0.5em;
+      margin-block-end: 0.5em;
+    }
+    ul li, ol li {
+      margin-bottom: 0;
     }
 
-    .page__title.p-name, hr {
+    .page__title.p-name, hr, .masthead, .header-link {
       display: none;
     }
     /* .page__content.e-content {
@@ -51,6 +54,55 @@ toc_sticky: true
      /* {
       margin: 0 0 0.5em !important; 
     } */
+
+    @page {
+      size: A4; /* DIN A4 standard, Europe */
+      margin:1em 1em;
+    }
+    /* html, body {
+        width: 25mm;
+        height: 282mm;
+        font-size: 11px;
+        background: #FFF;
+        overflow:visible;
+    }
+    body {
+        padding-top:15mm;
+    } */
+    p.page-title, h1, h2, h3 {
+      line-height: 1.1;
+    }
+    p.page-title {
+      font-size: 1.3em;
+    }
+    h1 {
+      font-size: 1.2em;
+      border-bottom: 1px solid #414449;
+    }
+    h2 {
+      font-size: 1.1em;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      padding-bottom: 0.2em !important;
+      border-bottom: 0 !important;
+    }
+    h3 {
+      font-size: 1em;
+      border-bottom: 0 !important;
+    }
+
+    .page__inner-wrap {
+      margin-top: 0 !important;
+    }
+
+    header, footer {
+      display: none;
+    }
+
+    .display-flex {
+      display: flex; 
+    }
+
   }
 
   .flush-L {
@@ -83,8 +135,18 @@ toc_sticky: true
 <!-- <h1 class="showOnPrint">
 <u>Jay Piamjariyakul</u>
 </h1> -->
-# Jay Piamjariyakul
-{: .showOnPrint }
+Jay Piamjariyakul
+{: .showOnPrint .page-title style="font-weight: bold;"}
+
+<div class="showOnPrint display-flex" style="justify-content: space-between; margin-bottom: 1em">
+<!-- <a href="https://linkedin.com/in/jay-piamjariyakul"><i class="fab fa-linkedin-in"></i> <span>linkedin.com/in/jay-piamjariyakul</span></a> -->
+<a href="https://github.com/jpiamjariyakul"><i class="fab fa-fw fa-github"></i> <span>jpiamjariyakul</span></a>
+<a href="mailto:j.piamjariyakul@outlook.com"><i class="fas fa-fw fa-envelope-square"></i> <span>j.piamjariyakul@outlook.com</span></a>
+</div>
+
+<!-- <br> -->
+<!-- jpiamjariyakul.github.io E-mail: j.piamjariyakul@outlook.com LinkedIn: linkedin.com/in/jay-piamjariyakul -->
+<!-- {: .showOnPrint style="font-weight: bold; font-size: 1.5em; line-height: 1.1; margin: 0 0 0.5em;"} -->
 
 # Education
 
@@ -171,6 +233,7 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
 - Previous experiences with microcontrollers and its languages in personal, internship & university-related projects, i.e. Arduino, Raspberry Pi, TI LaunchPad
 
 ## Problem Solving & Creativity
+{: style="page-break-before:always"}
 - Developed a set of prototype methods for collecting coverage data from functional verification & image quality metrics given top-level specifications with Python & SV as part of my Arm internship scheme, and designed database methods for storing & querying the collected information.
 - Designing & fabricating a Rubik’s Cube puzzle-solving robot from minimal requirements, with concerns to resource efficiency, performance, design choices, longetivity, and output verification.
 - Designed a PNM to PGM conversion (and vice versa) in C & an FPGA byte generator/detector in VHDL from minimal specifications, and programmed a disease/population analysis program in Python.
@@ -210,6 +273,11 @@ Thesis: ["A novel make-up gain stage for the software-based Moog 4-pole audio fi
 ***
 
 **_References available on request_**
+
+<!-- _This CV is auto-generated from [{{ site.url }}{{ site.baseurl }}{{page.url}}]({{ site.url }}{{ site.baseurl }}{{page.url}})._ -->
+
+_This CV is auto-generated from {{ site.url }}{{ site.baseurl }}{{ page.url }}._
+{: .showOnPrint}
 
 <style>
   @media print{

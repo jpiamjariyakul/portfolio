@@ -38,7 +38,7 @@ repository: jpiamjariyakul/website
 # GH pages - serve from directory?
 domain: jpiamjariyakul.github.io
 url: https://jpiamjariyakul.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /website/      # place folder name if the site is served in a subfolder
+baseurl: /website      # place folder name if the site is served in a subfolder
 
 plugins:
   #- jekyll-feed
