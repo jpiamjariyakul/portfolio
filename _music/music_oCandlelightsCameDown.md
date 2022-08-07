@@ -8,7 +8,8 @@ date:   2021-12-24 +0100
 
 The original premiere can be watched below (released on December 24, 2021):
 
-<iframe width="994" height="559" src="https://www.youtube.com/embed/dtRzFFJrDuU" title="YouTube video player" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+<!-- <iframe width="994" height="559" src="https://www.youtube.com/embed/dtRzFFJrDuU" title="YouTube video player" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> -->
+{% include video id="dtRzFFJrDuU" provider="youtube" %}
 
 The original score to the premiered piece can be viewed below:
 

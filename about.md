@@ -10,8 +10,10 @@ permalink: /about/
 
 <!-- # Bio -->
 
-<img src="{{ site.baseurl }}/assets/img/banner_about.jpg" style="float: left; padding: 5px; margin: 0 20px 0 20px; border: 1px solid #51555d; width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"/>
+<!-- <img src="{{ site.baseurl }}/assets/img/banner_about.jpg" class="align-right" style="width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"/> -->
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/profile_bridge.jpg" class="align-right" style="width: 300px"/>
 
+<!-- ![image-left]({{ site.url }}{{ site.baseurl }}/assets/img/banner_about.jpg){: .align-left, style="width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"} -->
 Jay Piamjariyakul is an engineer and amateur musician based in Cambridge, UK.
 
 # Engineering
@@ -35,6 +37,7 @@ He also composed a number of poems over his school days, and after a hiatus bega
 
 Jay is open to composing opportunities (be it film, choral, or concert - even writing poetry!); if you are interested please do not hesitate to get in touch.
 
+PRO affiliation: PRS, PPL
 <!-- *** -->
 
 And yes, Jay still plays with LEGO. He regrets nothing.

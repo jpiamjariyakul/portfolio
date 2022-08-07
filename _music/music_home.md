@@ -7,4 +7,5 @@ excerpt: "A choral piece released in March 2021, dedicated to the NHS."
 
 The original premiere can be watched below (released on March 25, 2021):
 
-<iframe width="994" height="559" src="https://www.youtube.com/embed/dyVX0iN7_Xk" title="YouTube video player" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+<!-- <iframe width="994" height="559" src="https://www.youtube.com/embed/dyVX0iN7_Xk" title="YouTube video player" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> -->
+{% include video id="dyVX0iN7_Xk" provider="youtube" %}

@@ -11,7 +11,8 @@ tags:
 
 The short film can be watched below (released on April 10, 2020):
 
-<iframe width="994" height="559" src="https://www.youtube.com/embed/WihOmRkLlEc" title="YouTube video player" frameborder="0" allow="encrypted-media"></iframe>
+<!-- <iframe width="994" height="559" src="https://www.youtube.com/embed/WihOmRkLlEc" title="YouTube video player" frameborder="0" allow="encrypted-media"></iframe> -->
+{% include video id="WihOmRkLlEc" provider="youtube" %}
 
 ***
 

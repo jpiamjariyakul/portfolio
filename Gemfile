@@ -33,6 +33,7 @@ group :jekyll_plugins do
   #gem "jemoji"
   gem "jekyll-include-cache"
   #gem "jekyll-algolia"
+  gem "jekyll-github-metadata"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -48,3 +49,14 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+# Jekyll::Hooks.register :posts, :pre_render do |post|
+
+#   # get the current post last modified time
+#   modification_time = File.mtime( post.path )
+
+#   # inject modification_time in post's datas.
+#   post.data['last-modified-date'] = modification_time
+
+# end
+
