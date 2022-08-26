@@ -21,4 +21,36 @@ author_profile: true
   {% endfor %}
 </div>
 
+<!-- Recent Music -->
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_music | default: "Recent Music Releases" }}</h2>
+
+{% if paginator %}
+  {% assign music = paginator.music %}
+{% else %}
+  {% assign music = site.music %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in music %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+<!-- Recent Poems -->
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_poems | default: "Recent Poems" }}</h2>
+
+{% if paginator %}
+  {% assign poems = paginator.poems %}
+{% else %}
+  {% assign poems = site.poems %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in poems %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
 {% include paginator.html %}

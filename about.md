@@ -11,7 +11,7 @@ permalink: /about/
 <!-- # Bio -->
 
 <!-- <img src="{{ site.baseurl }}/assets/img/banner_about.jpg" class="align-right" style="width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"/> -->
-<img src="{{ site.url }}{{ site.baseurl }}/assets/img/profile_bridge.jpg" class="align-right" style="width: 300px"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/profile_bridge.jpg" class="align-right" style="width: 225px; height: 300px; object-fit: cover; object-position: 80% 0"/>
 
 <!-- ![image-left]({{ site.url }}{{ site.baseurl }}/assets/img/banner_about.jpg){: .align-left, style="width: 300px; height: 337px; object-fit: cover; object-position: 0% 0;"} -->
 Jay Piamjariyakul is an engineer and amateur musician based in Cambridge, UK.

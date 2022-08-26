@@ -6,6 +6,12 @@ permalink: /
 hidden: true
 ---
 
+<style>
+    h1.page__title {
+        display: none;
+    }
+</style>
+
 # Hi! I'm Jay :)
 
 I am an electronics engineer who loves to talk about electronic engineering stuff. I also do music & poetry, there's that too.
